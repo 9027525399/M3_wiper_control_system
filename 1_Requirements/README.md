@@ -1,6 +1,6 @@
 # Requirements
 # introduction
-A windscreen wiper or windshield wiper or wiper blade is a device used to remove rain, snow, ice, washer fluid, water from a vehicle's front window.Current car wipers works on the principle of manual switching. The traditional wiper system requires driver's constant attention in adjusting the wiper speed. Traditional windshield wiper speed constantly varies according to time and vehicle’s speed which not only require driver’s attention but also causes a certain level of discomfort to the driver's vision and serves as a source of distraction which increases the risk of accidents.So,to offer comfort to the driver and essentially reduce the risk of accidents, an automatic rain sensing device has become a necessity, as they work to minimize the time of the driver
+A windscreen wiper or windshield wiper or wiper blade is a device used to remove rain, snow, ice, washer fluid, water from a vehicle's front window.Current car wipers works on the principle of manual switching. The traditional wiper system requires driver's constant attention in adjusting the wiper speed. Traditional windshield wiper speed constantly varies according to time and vehicle’s speed which not only require driver’s attention but also causes a certain level of discomfort to the driver's vision and serves as a source of distraction which increases the risk of accidents.So,to offer comfort to the driver and essentially reduce the risk of accidents, an automatic rain sensing device has become a necessity, as they work to minimize the time of the driver.Wiper Control System is basic need in the vehicles. To develop a good wiper system some basic requirements should be fulfilled, so that one can develop a trust worthy, so that one can develop a trust worthy wiper control system. Because wiper protects the vehicle to meet an accident. Wiper helps the driver to easily view the traffic and road. Wiper wipes out all the dust, dew, fog, and water setteled on the wind screen as well as rear shield.
 # Requirements for the project
 ## STM32CubeIDE
 STM32CubeIDE is an advanced C/C++ development platform with peripheral configuration, code generation, code compilation, and debug features for STM32 microcontrollers and microprocessors. It is based on the Eclipse/CDT framework and GCC toolchain for the development, and GDB for the debugging. It allows the integration of the hundreds of existing plugins that complete the features of the Eclipse IDE.
@@ -27,6 +27,19 @@ This Microcontroller is utilised in printing and scanning machines ,heat ventila
 This module can be found in a variety of household products.
 ## Working Principle
 Assume that the automobile is the microcontroller(STM32F407VG). If the button is pressed , the first led (red) will turn on, Clicking again the wiper will starts , and the second led (blue) will turn on for a desired rate. If the button is pressed again , the third led (green) will turn on, and the wiper's speed will be increased in comparison to the previous one. The fourth press will turn on the fourth led (orange) , and the wiper speed will be increased in accordance with the previous one. The microcontroller (vehicle) is turned off after the fifth click of the button.
+## 4W's & 1H( who,what.when,where,how,why)
+## what
+The operational speed of a vehicle wiper is controlled by a wiper speed control mechanism based on rain conditions. To generate, the control system incorporates a rain sensor (30) that detects rain conditions. The amplitude of an analogue signal depends on the detected rain conditions.
+## WHY
+To clean the windscreen clean enough to give adequate view at all times from the front and rear windshields of the car.Wiper cleans the windshield by removing oil, dust, moisture, and grime that have become attached to the glass.
+## WHEN
+The windshield wipers remove rain and snow from the windshield, while the headlights improve visibility at night.
+## WHO
+It is extremely important for drivers of any type of vehicle that require clear road visibility in the event of dust, snow, or rain.
+## HOW
+It is implemented using the STM32 microcontroller and once when the rain droplets fall on the windshield of the vehicle.
+## WHERE
+In general,car wipers are controlled by the stalk on the right side of the steering wheel.
 ## Swot Analysis
 ## Strengths
 Hands-Free Calling.
@@ -38,4 +51,10 @@ Structural Inertia.
 ## Opportunities
 Emerging New Markets.
 Hands-free calling.
+## Threats
+Once the board repaired cannot be replaced quickly.
+Low Bargaining Power Buyers.
+Highly REgulated Industry.
+Econimical Crisis.
+
 

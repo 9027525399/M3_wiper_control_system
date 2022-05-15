@@ -56,5 +56,21 @@ Once the board repaired cannot be replaced quickly.
 Low Bargaining Power Buyers.
 Highly REgulated Industry.
 Econimical Crisis.
+## low level Requirement
+| ID    | Description                             | Status              | 
+|-------|-----------------------------------------|---------------------|
+| LLR01 |Press and hold the push button for 2 seconds to start the system of vehicle or to set on ACC mode   |Implemented          |
+| LLR02  |Press the push button to start the wiper system|Implemented          |
+| LLR03 | Press it one more time to to increase the frequency of wiper | Implemented |
+| LLR04 | Press it one more time to further increase the frequency | Implemented |
+| LLR05 | Press and hold the push button for again 2 seconds to turn-off the wiper system | Implemented|
+| LLR06 | Again press and hold it for 2 seconds to turn-off the vehicle system| Implimented|
+## high level Requirement
+| ID    | Name | Description                             | Status              | 
+|-------|---|-----------------------------------------|---------------------|
+| HLR01 | Push Button   |  To mimic the key of vehicle to start                      |Implemented          |
+| HLR02 |LEDs | In the absence of wiper blade we use LEDs                             |Implemented          |
+| HLR03 |Timer | To control the speed/frequency of wiper blade | Implimented |
+| HLR04 |Arm Cortex -M4 CPU | To mimic the wiper motor we use Arm Cortex -M4 CPU to run wiper blade/LEDs | Implimented |
 
 
